@@ -1,0 +1,170 @@
+@font-face {
+    src: url(../typo/JangerRegular-lgYWq.otf) format('opentype');
+    font-family: janger;
+    src: url(../typo/DeonBerneyFreeTrial-eZ8pg.ttf) format('truetype');
+    font-family: deon;
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+.logo{
+    position: relative;
+}
+
+.title_nav img{
+    height: 1.8cm;
+}
+
+.title_nav{
+    font-family: deon;
+    font-size: large;
+    justify-content: space-around;
+    display: inline;
+    
+}
+
+.logo-text{
+    position: absolute;
+    z-index:2;
+    padding-top: 0.5cm;
+    padding-left: 0.8cm;
+}
+
+.nav{
+    height: 1.8cm;
+    width: 96%;
+    color: white;
+    background-color: transparent;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: black;
+}
+
+a:link {color:white;text-decoration:none;}
+a:visited {color:white;text-decoration:none;}
+a:hover {text-decoration:underline;}
+
+.menu1{
+    float: right;
+    justify-content: space-around;
+    display: inline;
+}
+
+.menu1 a{
+    padding: 0 10px;
+}
+
+.accueil{
+    background-image: url("../images/scene.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
+.boutonPrest{
+    border-radius: 30px;
+    position: sticky;
+	top: 80%;
+	left: 50%;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #FFFFFF;
+    height: 65px;
+    width: 230px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size:x-large;
+}
+
+.style-page{
+    background-color: #72462a;
+    min-height: 100%;
+}
+
+.titrePort{
+    text-align: center;
+    padding-top: 1%;
+    font-family: janger;
+    font-size: 110px;
+    color: #6ab1d4;
+}
+
+.portraits{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-column-gap: 100px;
+    padding-left: 5%;
+    row-gap: 45px;
+    position: relative;
+}
+
+.grid-item {
+    padding: 80px 0;
+    text-align: center;
+    height: 50px;
+}
+
+.wiki{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 100px;
+    padding-left: 30%;
+    position: relative;
+}
+
+.titrewiki{
+    text-align: center;
+    padding-top: 1%;
+    font-family: janger;
+    font-size: 100px;
+    color: #6ab1d4;
+}
+
+.grid-wiki-item-item {
+    padding: 30px 0;
+    text-align: center;
+    height: 100%;
+}
+
+.grid-wiki-item-titre {
+    padding: 30px 0;
+    text-align: center;
+    height: 100%;
+}
+
+.grid-wiki-item-img {
+    padding: 30px 0;
+    text-align: center;
+    height: 100%;
+}
+
+.grid-wiki-item-desc {
+    padding: 30px 0;
+    text-align: center;
+    height: 100%;
+}
+
+/*presentation*/
+.logo_prest{
+    height: 450px;
+    width: auto;
+    padding-top: 5%;
+}
+
+.col{
+    padding-top: 8%;
+}
+
+
+.footer {
+    text-align: center;
+    position:relative;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
